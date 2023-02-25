@@ -6,7 +6,7 @@ const Header = () => {
         <div>
             <div className="hero min-h-screen bg-base-200">
                 <div className="hero-content flex-col lg:flex-row-reverse">
-                    <div className='w-1/2'>
+                    <div className='md:w-1/2'>
                         <img src='https://i.ibb.co/SsLPT7r/1670688632669.jpg' className='rounded-lg md:rounded-l-full' alt='' />
                     </div>
                     <div>

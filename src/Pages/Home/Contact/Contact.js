@@ -24,7 +24,7 @@ const Contact = () => {
     return (
         <div className='my-40' id='contact'>
             <h1 className='text-2xl md:text-4xl text-center font-bold mb-2'><span className='bg-gray-400 text-black p-2 rounded-lg'>Contact me</span></h1>
-            <div className='w-1/2 mx-auto'>
+            <div className='md:w-1/2 mx-auto'>
                 <form className="form-control w-full" ref={form} onSubmit={sendEmail}>
                     <label className="label">
                         <span className="label-text">Your Email</span>
@@ -45,7 +45,7 @@ const Contact = () => {
                     </label>
                     <label className="flex-none md:input-group w-full">
                         <span>Message</span>
-                        <textarea name="message" id="" cols="60" rows="10"></textarea>
+                        <textarea name="message" id="" cols="60" rows="10" className='w-3/4 md:w-full'></textarea>
                     </label>
                     <button type="submit" className='btn glass w-1/2 mx-auto my-5 text-white font-bold'>Submit</button>
                 </form>

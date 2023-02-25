@@ -9,8 +9,8 @@ const Projects = () => {
             .then(data => setProjects(data))
     }, [])
     return (
-        <div className='my-10 md:mx-12' id='projects'>
-            <h1 className='text-4xl text-center font-bold mb-8'>My Projects that I like to share</h1>
+        <div className='mt-20 px-2 md:mx-12' id='projects'>
+            <h1 className='md:text-4xl text-xl text-center font-bold mb-8'>My Projects that I like to share</h1>
             <div className='grid grid-cols-1 md:grid-cols-3 gap-5'>
                 {
                     projects.map(p => <Project info={p}></Project>)
